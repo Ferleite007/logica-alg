@@ -8,5 +8,5 @@ inicio
             escreval(c1, c2)
         fimpara
     fimpara
-
+    
 fimalgoritmo
