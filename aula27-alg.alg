@@ -8,6 +8,4 @@ inicio
         para c <- 1 ate 2 faca 
             leia(m[l,c])
         fimpara
-    
-
 fimalgoritmo
