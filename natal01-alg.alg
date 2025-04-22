@@ -6,7 +6,6 @@ inicio
 repita
     escreva("Qual e a altura?: ")
     leia(nes)
-    //definicao de medidas presentes na arvore
     escreval("")
     altura <- nes
     se (nes > 7) entao
@@ -46,7 +45,6 @@ se (nes > 3) entao
     ate cf = base
     //tronco
     repita
-        //espacos do tronco
         cst <- 1
         repita
             cst <- cst + 1
@@ -61,7 +59,6 @@ se (nes > 3) entao
         ate (ct > (2*((space-1)\3))) 
         escreval("")
     ate (t = atronco)
-//casos espesificos que o codigo nao contempla
 senao
     se (nes = 0) entao
         escreval ("")
@@ -80,7 +77,6 @@ senao
                     escreval (" *")
                     escreval ("  |")
                     escreval("")
-                //limpar a tela e mensagem de valor valido
                 senao
                     se ((nes%1)>0) entao
                         limpatela
